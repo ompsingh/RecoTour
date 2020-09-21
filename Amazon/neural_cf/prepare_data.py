@@ -128,7 +128,7 @@ def prepare_amazon(data_path, input_fname):
 	neuralcf_split(df, data_path)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
 
 	parser = argparse.ArgumentParser(description="prepare Amazon dataset")
 
